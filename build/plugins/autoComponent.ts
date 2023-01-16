@@ -8,6 +8,7 @@ export function autoComponent() {
     return Components({
         resolvers: [ElementPlusResolver()],
         extensions: ['vue'],
+        dirs: [],
         dts: 'typings/auto-components.d.ts'
     })
 }
