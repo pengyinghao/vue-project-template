@@ -18,6 +18,7 @@ module.exports = {
     },
     plugins: ['vue', '@typescript-eslint', 'import'],
     rules: {
+        'vue/multi-word-component-names': 'off',
         'import/extensions': 'off',
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
